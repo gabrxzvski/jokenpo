@@ -1,0 +1,1 @@
+This is another small project from The Odin Project course, it's a jokenpo game and for now, i just implemented the JS algorithm to the game that gets a user input, plays 5 rounds with the computer and displays the scores at the end of the 5 rounds, i also added a blank html file that will be modified later on.
