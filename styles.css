@@ -1,0 +1,145 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    color: #FFCBD2;
+}
+
+.labels {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#item1 {
+    margin-left: 28px;
+}
+
+#item2 {
+    margin-left: 28px;
+}
+
+.plays {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#player, #computer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height:200px;
+    border: 2px solid #99797E;
+    border-radius: 10%;
+    box-shadow: 0 0 5px #FFCBD2;
+}
+
+.labels2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    font-size: 20px;
+    
+}
+
+#playagainbtn {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#rock, #paper, #scissors {
+    height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 150px;
+    border: 1px solid #99797E;
+    margin-right: 10px;
+    margin-top: 200px;
+    border-radius: 10%;
+    transition: all 0.5s;
+}
+
+#rock {
+    transform: scaleX(-1);
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+    height: auto; 
+    width: auto;
+    border-color: #FFCBD2;
+    box-shadow: 0 0 10px #FFCBD2;
+    color:#000000;
+    background-color:rgba(255,203,210, 0.3);
+}
+
+
+#rockstyle {
+    transform: scaleX(-1);
+    max-width: 180px; 
+    max-height: 180px;
+}
+#paperstyle, #scissorsstyle {
+    max-width: 180px; 
+    max-height: 180px;
+}
+#rockstyleclone {
+    max-width: 180px; 
+    max-height: 180px;
+}
+
+#paperstyleclone, #scissorsstyleclone {
+    transform: scaleX(-1);
+    max-width: 180px; 
+    max-height: 180px;
+}
+
+a.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #99797E;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.30em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Press Start 2P', cursive;
+    font-weight:300;
+    color:#FFCBD2;
+    text-align:center;
+    transition: all 0.5s;
+}
+
+a.button1:hover{
+    color:#000000;
+    background-color:#FFCBD2;
+    box-shadow: 0 0 5px #FFCBD2;
+    border-color: #FFCBD2;
+}
+
+@media all and (max-width:30em){
+    a.button1 {
+    display:block;
+    margin:0.4em auto;
+    }
+} 
